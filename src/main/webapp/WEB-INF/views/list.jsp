@@ -22,7 +22,7 @@
 			<td align="center">${dto.mnum }</td>
 			<td>${dto.mwriter }</td>
 			<td width="600">${dto.mcontent }</td>
-			<td><input type="button" value="삭제" onclick="location.href='delete?mnum=${dto.mnum }'"></td>
+			<td><input type="button" value="X" onclick="location.href='delete?mnum=${dto.mnum }'"></td>
 		</tr>		
 		</c:forEach>
 		<tr>
